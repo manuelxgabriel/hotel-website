@@ -12,4 +12,18 @@ menuBtn.addEventListener('click', ()=> {
 navLinks.addEventListener('click', ()=> {
     navLinks.classList.remove('open');
     menuBtnIcon.setAttribute('class', 'ri-menu-line');
-})
+});
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const scrollRevealOption = {
+        distance: "50px",
+        origin: "bottom",
+        duration: 1000,
+    };
+
+    ScrollReveal().reveal(".header_container p", scrollRevealOption);
+});
+
+
+

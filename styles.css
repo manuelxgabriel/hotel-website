@@ -153,6 +153,79 @@ a {
 
 }
 
+.header_container {
+    padding-block: 10rem;
+}
+.header_container p{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: var(--white);
+    text-align: center;
+    opacity: 0.6;
+}
+
+.header_container h1{
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 4.5rem;
+    color: var(--white);
+    text-align: center;
+}
+
+.header_container h1 span {
+    color: var(--primary-color);
+}
+
+.booking_container {
+    padding-block: 2rem;
+}
+
+.booking_form {
+    padding: 2rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: var(--white);
+    border-radius: 10px;
+    transform: translateY(-50%);
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
+}
+
+.input_group {
+    flex: 1 1 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.input_group span {
+    font-size: 1.75rem;
+    color: var(--primary-color);
+}
+
+.input_group label {
+    font-weight: 500;
+    color: var(--text-dark);
+}
+
+.input_group input {
+    display: block;
+    width: 100%;
+    max-width: 150px;
+    padding-block: 5px;
+    color: var(--text-dark);
+    font-size: 0.9rem;
+    outline: none;
+    border: none;
+}
+
+.input_group input::placeholder {
+    color: var(--text-light);
+}
+
 @media (width > 768px){
     nav {
         padding: 2rem 1rem;
