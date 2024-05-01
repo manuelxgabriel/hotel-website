@@ -59,6 +59,12 @@ document.addEventListener('DOMContentLoaded', function() {
         delay: 2000,
     })
 
+    //Room Container
+    ScrollReveal().reveal(".room_card", {
+        ...scrollRevealOption,
+        interval:500,
+    })
+
 });
 
 
