@@ -22,8 +22,45 @@ document.addEventListener('DOMContentLoaded', function() {
         duration: 1000,
     };
 
-    ScrollReveal().reveal(".header_container p", scrollRevealOption);
+    // Header Container
+    ScrollReveal().reveal(".header_container p", {
+     ...scrollRevealOption,
+    });
+
+    ScrollReveal().reveal(".header_container h1", {
+        ...scrollRevealOption,
+        delay: 500,
+    });
+
+
+    // About Container
+    ScrollReveal().reveal(".about_image img", {
+        ...scrollRevealOption,
+        origin: "left",
+    });
+
+    ScrollReveal().reveal(".about_container .section_subheader", {
+        ...scrollRevealOption,
+        delay: 500,
+    });
+
+    ScrollReveal().reveal(".about_container .section_header", {
+        ...scrollRevealOption,
+        delay: 1000,
+    });
+
+    ScrollReveal().reveal(".about_container .section_description", {
+        ...scrollRevealOption,
+        delay: 1500,
+    })
+
+    ScrollReveal().reveal(".about_btn", {
+        ...scrollRevealOption,
+        delay: 2000,
+    })
+
 });
+
 
 
 
