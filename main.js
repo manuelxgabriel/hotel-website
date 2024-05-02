@@ -65,6 +65,12 @@ document.addEventListener('DOMContentLoaded', function() {
         interval:500,
     })
 
+    ScrollReveal().reveal(".room_card", {
+        ...scrollRevealOption,
+        interval: 500,
+        origin: "right",
+    })
+
 });
 
 
